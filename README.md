@@ -24,24 +24,5 @@ In this task, a bar chart was created to visualize the distribution of countries
 
 ---
 
-## 🧪 Implementation
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load dataset
-df = pd.read_csv("population.csv")
-
-# Count countries per continent
-continent_counts = df["Continent"].value_counts()
-
-# Bar chart
-plt.figure(figsize=(8,5))
-continent_counts.plot(kind="bar")
-plt.title("Distribution of Countries by Continent")
-plt.xlabel("Continent")
-plt.ylabel("Number of Countries")
-plt.xticks(rotation=45)
-plt.show()
-
+## 🏁Conclusion 
+This task successfully demonstrates how bar charts can be used to visualize categorical data effectively. By analyzing the distribution of countries across different continents, meaningful insights were gained about global data distribution. 📊🌍
