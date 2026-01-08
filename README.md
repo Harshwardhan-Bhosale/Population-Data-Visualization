@@ -7,7 +7,7 @@ The objective of this task is to create a bar chart or histogram to visualize th
 
 ## 🌍 Dataset
 - **Dataset Used:** World Population Dataset  
-- **File Name:** population.csv  
+- **File Name:** world_population.csv  
 - **Key Column Used:** Continent (Categorical Variable)
 
 ---
